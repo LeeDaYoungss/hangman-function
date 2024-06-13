@@ -1,0 +1,36 @@
+body{
+  padding: 10px;
+}
+.letters{
+  display: flex;
+  span{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    border:1px solid #ccc;
+    font-size: 1.5em;
+  }
+}
+.buttons{
+  margin-top: 10px;
+  display: flex;
+  gap:3px;
+  flex-wrap:wrap;
+  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    background: #ebebeb;
+    border:none;
+    font-size: 1.5em; 
+  }
+}
+.buttons .guessed, 
+.hidden{
+  display: none;
+}
